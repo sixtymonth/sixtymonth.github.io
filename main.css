@@ -1,0 +1,173 @@
+body, p {
+    margin: 0px;
+    padding: 0px;
+}
+a:link, a:visited {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: thin;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px 0px #aaaaaa;
+    background-color: #ff7777;
+    color: #ffffff;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+a:hover, a:active {
+    border-style: solid;
+    background-color: #404040;
+    border-color: #ffffff;
+    border-radius: 8px;
+    border-width: 5px;
+    box-shadow: 0px 10px 40px 5px #555555;
+    color: #ffffff;
+    height: 32px;
+    line-height: 32px;
+}
+body {
+    background-image: url("image/b1.jpg");
+    font-family: helvetica, sans-serif;
+}
+.link {
+    display: block;
+    width: 20px;
+    margin-left: 28%;
+}
+#copyright {
+    display: block;
+    font-size: 80%;
+    font-weight: bold;
+    margin-left: 14px;
+    text-align: left;
+    text-shadow: 5px 5px 10px #404040;
+}
+#footer {
+    bottom: 0px;
+    border-bottom: 50px solid #404040;
+    border-right: 1000px solid transparent;
+    position: fixed;
+}
+#header {
+    border-right: 1000px solid transparent;
+    border-top: 50px solid #404040;
+    position: fixed;
+}
+#logo {
+    border-style: none;
+    height: 150px;
+    margin-left: -60px;
+    margin-top: -36px;
+    -webkit-filter: saturate(50%);
+    -moz-filter: saturate(50%);
+    -o-filter: saturate(50%);
+    -ms-filter: saturate(50%);
+    filter: saturate(50%);
+}
+#mail {
+    height: 30px;
+}
+#palette {
+    background-color: #444444;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+    border-radius: 12px;
+    box-shadow: 0px 5px 40px 10px #888888;
+    color: #ffffff;
+    height: 500px;
+    margin: auto;
+    width: 164px;
+    -webkit-transform: perspective( 1600px ) rotateY( 15deg );
+    -moz-transform: perspective( 1600px ) rotateY( 15deg );
+    -o-transform: perspective( 1600px ) rotateY( 15deg );
+    -ms-transform: perspective( 1600px ) rotateY( 15deg );
+    transform: perspective( 1600px ) rotateY( 15deg );
+}
+#sidebar {
+    height: 90%;
+    margin-top: 80px;
+    position: fixed;
+    text-align: center;
+    width: 240px;
+}
+#slogan {
+    font-size: 60%;
+    margin-left: 9px;
+    line-height: 30px;
+    vertical-align: top;
+}
+#small {
+    border-color: #c8c8c8;
+    height: 100%;
+}
+#tel {
+    height: 16px;
+}
+#trademark {
+    background-color: transparent;
+    color: #ffffff;
+    display: block;
+    font-size: 186%;
+    font-weight: bold;
+    margin: 4px;
+    position: fixed;
+    text-align: left;
+}
+#web {
+    background-color: transparent;
+    bottom: 0px;
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+    margin: 0px;
+    position: fixed;
+}
+
+/*About Us*/
+#capital {
+    font-size: 60px;
+    word-wrap: break-word;
+}
+#container {
+    border: 0px;
+    float: right;
+    height: 100%;
+    width: 78%;
+}
+#content {
+    background-color: #f0f0f0;
+    color: #000000;
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+    border-radius: 4px;
+    box-shadow: 0px 5px 40px 10px #888888;
+    margin: auto;
+    padding: 60px;
+    text-align: justify;
+    width: 60%;
+    -webkit-transform: perspective( 1600px ) rotateY( -10deg );
+    -moz-transform: perspective( 1600px ) rotateY( -10deg );
+    -o-transform: perspective( 1600px ) rotateY( -10deg );
+    -ms-transform: perspective( 1600px ) rotateY( -10deg );
+    transform: perspective( 1600px ) rotateY( -10deg );
+}
+#heading {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 1025px) {
+	header a.logo {
+	    height: 36px;
+	    background: rgba(0,0,0,.50) url(../images/logo_small.svg) no-repeat center center;
+	    background-size: 126px 17px;
+	}
+}
